@@ -2,13 +2,12 @@
 
 Use 'cookiecutter' with this template to generate a new Python terminal application.
 
-## Usage
+## Install cookiecutter
 
-### Install cookiecutter
-
-First install cookiecutter. Pipx is recommended to install Python packages 
-containing command-line tools. It silently creates new virtualenvs for
-installed packages without you having to worry about it. Hence:
+Cookiecutter can be installed using pip or conda, or as follows using pipx,
+which makes it easy to install Python packages containing command-line tools, by
+silently managing virtualenvs for installed packages, without you having to
+worry about it. Hence:
 
     # First install pipx
     python3 -m pip install --user pipx
@@ -16,9 +15,7 @@ installed packages without you having to worry about it. Hence:
     # Then use pipx to install cookiecutter
     pipx install cookiecutter
 
-Alternatively, installation of cookiecutter using pip or conda will work fine.
-
-### Run cookiecutter
+## Using this template
 
 Then run cookiecutter on this template to generate a directory containing a new
 Python terminal application.
@@ -27,9 +24,13 @@ Python terminal application.
 
 (or, instead of 'gh:...', reference this directory on the local filesystem)
 
-### Develop your code.
+Answer the resulting prompts, or just press 'enter' to accept the shown
+default values.
 
-Run `make' with no target to see a list of tasks this template supports.
+## Develop your code.
+
+In your newly directory, run `make' with no target to see a list of supported
+tasks.
 
 
 ## TODO

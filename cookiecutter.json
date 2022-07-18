@@ -1,11 +1,10 @@
 {
-  "project_name": "",
-  "description": "",
-
-  "project_name_hyphenated": "{{ '-'.join(cookiecutter.project_name.lower().split()).replace('_', '-') }}",
-  "project_name_underscored": "{{ cookiecutter.project_name_hyphenated.replace('-', '_') }}",
-  "author_name": "Jonathan Hartley",
-  "author_email": "tartley@tartley.com",
-  "author_github": "tartley"
+    "project_name": "",
+    "description": "",
+    "project_slug":
+        "{{ '_'.join(cookiecutter.project_name.lower().split()).replace('-', '_') }}",
+    "author_name": "Jonathan Hartley",
+    "author_email": "tartley@tartley.com",
+    "github_username": "tartley"
 }
 
