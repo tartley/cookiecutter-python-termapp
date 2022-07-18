@@ -1,0 +1,9 @@
+# {{cookiecutter.project_name}}
+
+{{cookiecutter.description}}
+
+As a slug, e.g. github project name: {{cookiecutter.author_github}}/{{cookiecutter.project_name_hyphenated}}
+Or using underscores, e.g. on PyPI:  {{cookiecutter.project_name_underscored}}
+
+By {{cookiecutter.author_name}}, {{cookiecutter.author_email}}.
+

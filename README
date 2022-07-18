@@ -1,0 +1,8 @@
+# Python library cookiecutter template
+
+Use 'cookiecutter' with this template to generate a new Python terminal application:
+
+    cookiecutter gh:tartley/cookiecutter-python-termapp
+
+(or, instead of 'gh:...', reference this directory on the local filesystem)
+
