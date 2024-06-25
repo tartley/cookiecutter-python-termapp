@@ -2,7 +2,9 @@
     "project_name": "",
     "description": "",
     "project_slug":
-        "{{ '_'.join(cookiecutter.project_name.lower().split()).replace('-', '_') }}",
+        "{{ '-'.join(cookiecutter.project_name.lower().replace('_', '-').split()) }}",
+    "project_importable":
+        "{{ cookiecutter.project_slug.replace('-', '_') }}",
     "author_name": "Jonathan Hartley",
     "author_email": "tartley@tartley.com",
     "github_username": "tartley"

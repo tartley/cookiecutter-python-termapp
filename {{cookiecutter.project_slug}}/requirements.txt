@@ -1,0 +1,3 @@
+# Install {{cookiecutter.project_slug}} and its dependencies.
+-e .[tests]
+

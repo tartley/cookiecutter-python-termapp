@@ -1,0 +1,38 @@
+[project]
+name = "{{cookiecutter.project_name}}"
+version = "0.0.1dev"
+authors = [
+    { name="{{cookiecutter.author_name}}", email="{{cookiecutter.author_email}}" },
+]
+description = "{{cookiecutter.description}}"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    'Development Status :: 1 - Planning',
+    #'Development Status :: 2 - Pre-Alpha',
+    #'Development Status :: 3 - Alpha',
+    #'Development Status :: 4 - Beta',
+    #'Development Status :: 5 - Production/Stable',
+    #'Development Status :: 6 - Mature',
+    #'Development Status :: 7 - Inactive',
+    'Environment :: Console',
+    #'Intended Audience :: Developers',
+    'Intended Audience :: End Users/Desktop',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    #'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: Implementation :: CPython',
+    #'Topic :: Games/Entertainment',
+]
+dependencies = []
+
+[project.urls]
+"Github" = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
